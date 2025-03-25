@@ -32,7 +32,7 @@ owners:
 
 # for CPaaS
 additional_tags:
-- 'rhel_9_golang_1.24'
-- 'rhel_9_1.24'
+- 'rhel_9_golang_1.24-nofips'
+- 'rhel_9_1.24-nofips'
 maintainer:
   component: Release
