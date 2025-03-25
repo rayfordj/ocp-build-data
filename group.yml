@@ -1,4 +1,4 @@
-name: rhel-9-golang-1.23
+name: rhel-9-golang-1.24
 
 arches:
 - x86_64
@@ -38,10 +38,11 @@ repos:
         module_hotfixes: 1
         includepkgs: module-build-macros golang* goversioninfo
       baseurl:
-        aarch64: https://download-node-02.eng.bos.redhat.com/brewroot/repos/rhaos-{MAJOR}.{MINOR}-rhel-9-build/latest/aarch64/
-        ppc64le: https://download-node-02.eng.bos.redhat.com/brewroot/repos/rhaos-{MAJOR}.{MINOR}-rhel-9-build/latest/ppc64le/
-        s390x: https://download-node-02.eng.bos.redhat.com/brewroot/repos/rhaos-{MAJOR}.{MINOR}-rhel-9-build/latest/s390x/
-        x86_64: https://download-node-02.eng.bos.redhat.com/brewroot/repos/rhaos-{MAJOR}.{MINOR}-rhel-9-build/latest/x86_64/
+        # golang-1.24.1-2.el9_5+nofips (for CI testing)
+        aarch64: https://brew-task-repos.engineering.redhat.com/repos/scratch/dbenoit/golang/1.24.1/2.el9_5+nofips/aarch64/
+        ppc64le: https://brew-task-repos.engineering.redhat.com/repos/scratch/dbenoit/golang/1.24.1/2.el9_5+nofips/ppc64le/
+        s390x: https://brew-task-repos.engineering.redhat.com/repos/scratch/dbenoit/golang/1.24.1/2.el9_5+nofips/s390x/
+        x86_64: https://brew-task-repos.engineering.redhat.com/repos/scratch/dbenoit/golang/1.24.1/2.el9_5+nofips/x86_64/
     # These content sets are not used, so just putting something here
     content_set:
       default: rhocp-{MAJOR}.{MINOR}-for-rhel-9-x86_64-rpms
