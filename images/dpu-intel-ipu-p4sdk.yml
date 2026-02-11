@@ -13,8 +13,17 @@ content:
       streams_prs:
         ci_build_root:
           member: ci-openshift-build-root-latest.rhel9
+    pkg_managers:
+    - pip
 dependents:
 - dpu-operator
+cachito:
+  enabled: true
+  packages:
+    pip:
+    - path: openshift
+      requirements_files:
+      - requirements-p4.txt
 distgit:
   branch: rhaos-{MAJOR}.{MINOR}-rhel-9
   component: dpu-intel-ipu-p4sdk-container
@@ -41,24 +50,23 @@ konflux:
   cachi2:
     lockfile:
       rpms:
-      - "gcc-c++"
-      - "libstdc++-devel"
-      - "gcc"
-      - "glibc-devel"
-      - "binutils"
-      - "libxcrypt-devel"
-      - "pkgconf-pkg-config"
-      - "pkgconf"
-      - "cpp"
-      - "pkgconf-m4"
-      - "glibc-headers"
-      - "kernel-headers"
-      - "libmpc"
-      - "libpkgconf"
-      - "binutils-gold"
-      - "elfutils-debuginfod-client"
-      - "make"
-  network_mode: open  # needs to declare netaddr in requirements.txt
+      - gcc-c++
+      - libstdc++-devel
+      - gcc
+      - glibc-devel
+      - binutils
+      - libxcrypt-devel
+      - pkgconf-pkg-config
+      - pkgconf
+      - cpp
+      - pkgconf-m4
+      - glibc-headers
+      - kernel-headers
+      - libmpc
+      - libpkgconf
+      - binutils-gold
+      - elfutils-debuginfod-client
+      - make
 okd:
   content:
     source:
