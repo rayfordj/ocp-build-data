@@ -52,6 +52,7 @@ konflux:
   network_mode: open
 
 okd:
+  branch: rhaos-{MAJOR}.{MINOR}-rhel-10
   konflux:
     build_priority: 8
     cachi2:
