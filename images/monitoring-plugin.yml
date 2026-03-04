@@ -13,12 +13,6 @@ content:
         target: release-4.22
       url: git@github.com:openshift-priv/monitoring-plugin.git
       web: https://github.com/openshift/monitoring-plugin
-    modifications:
-    - action: replace
-      match: "COPY $REMOTE_SOURCES $REMOTE_SOURCES_DIR"
-      replacement: |-
-        COPY $REMOTE_SOURCES $REMOTE_SOURCES_DIR
-        RUN touch $REMOTE_SOURCES_DIR/cachito-gomod-with-deps/app/registry-ca.pem $REMOTE_SOURCES_DIR/cachito-gomod-with-deps/app/web/registry-ca.pem $REMOTE_SOURCES_DIR/cachito-gomod-with-deps/app/web/.npmrc
     ci_alignment:
       streams_prs:
         ci_build_root:
@@ -49,7 +43,6 @@ owners:
 konflux:
   cachito:
     mode: emulation
-  network_mode: open
 okd:
   content:
     source:
