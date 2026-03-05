@@ -69,7 +69,17 @@ releases:
             ppc64le: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:29a849c678f9cada55baa7a47d256a4ab7e17a6d45c310e98d2d8407a833f9b8
       members:
         rpms: []
-        images: []
+        images:
+        - distgit_key: node-feature-discovery
+          why: pinned node-feature-discovery version which has konflux build
+          metadata:
+            is:
+              nvr: node-feature-discovery-container-v4.21.0-202602261853.p2.g8f515f0.assembly.stream.el9
+        - distgit_key: monitoring-plugin
+          why: pinned monitoring-plugin version which has konflux build
+          metadata:
+            is:
+              nvr: monitoring-plugin-container-v4.21.0-202603041835.p2.gc2a9d0b.assembly.stream.el9
   4.21.4:
     assembly:
       type: standard
