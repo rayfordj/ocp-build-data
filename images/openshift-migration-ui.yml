@@ -43,6 +43,9 @@ konflux:
         -  file
         -  file-libs
         -  ghc-srpm-macros
+        -  glibc
+        -  glibc-common
+        -  glibc-gconv-extra
         -  go-srpm-macros
         -  nodejs
         -  nodejs-devel
@@ -66,7 +69,7 @@ konflux:
         -  python3-setuptools
         -  python36
         -  qt5-srpm-macros
-        -  redhat-rpm-config
+        -  redhat-rpm-config-125-1.el8
         -  rust-srpm-macros
         -  zip
 name: rhmtc/openshift-migration-ui-rhel8
