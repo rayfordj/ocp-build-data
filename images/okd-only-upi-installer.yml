@@ -32,7 +32,7 @@ from:
   - image: quay.io/ocp-splat/pwsh:v7.3.12
   - image: quay.io/multi-arch/yq:3.3.0
   - image: quay.io/multi-arch/yq:4.30.5
-  member: openshift-enterprise-base-rhel9
+  member: openshift-enterprise-base-rhel9-minimal
 name: openshift/ose-upi-installer-rhel9
 payload_name: upi-installer
 owners:
