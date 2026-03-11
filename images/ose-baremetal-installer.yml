@@ -30,7 +30,7 @@ from:
   - member: ose-etcd
   - member: openshift-enterprise-hyperkube
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9
+  member: openshift-enterprise-base-rhel9-minimal
 name: openshift/ose-baremetal-installer-rhel9
 payload_name: baremetal-installer
 owners:
