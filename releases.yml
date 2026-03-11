@@ -607,7 +607,7 @@ releases:
           - distgit_key: microshift-bootc
             metadata:
               is:
-                nvr: microshift-bootc-container-v4.21.0-202512191535.p2.gd9d327c.assembly.rc.0.el9
+                nvr: microshift-bootc-container-v4.21.0-202603111034.p2.gd9d327c.assembly.rc.0.el9
             why: Pin microshift-bootc image to assembly
   ec.4:
     assembly:
