@@ -40,7 +40,7 @@ for_payload: true
 from:
   builder:
   - member: openshift-base-nodejs.rhel9
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 name: openshift/ose-networking-console-plugin-rhel9
 owners:
 - upalatuc@redhat.com

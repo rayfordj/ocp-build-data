@@ -29,6 +29,6 @@ for_release: false
 from:
   builder:
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 owners:
 - aos-storage-staff@redhat.com

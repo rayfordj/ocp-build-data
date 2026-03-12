@@ -36,7 +36,7 @@ from:
   builder:
   - stream: rhel-9-golang
   - stream: rhel-8-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 name: openshift/ose-machine-config-rhel9-operator
 payload_name: machine-config-operator
 owners:

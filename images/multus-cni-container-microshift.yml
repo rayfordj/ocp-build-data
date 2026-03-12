@@ -28,7 +28,7 @@ for_payload: true
 from:
   builder:
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 labels:
   io.k8s.description: This is an optional component of MicroShift and provides a meta CNI plugin.
   io.k8s.display-name: Multus CNI for MicroShift

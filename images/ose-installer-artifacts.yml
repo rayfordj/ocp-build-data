@@ -28,7 +28,7 @@ from:
   - stream: rhel-9-golang
   - stream: rhel-9-golang
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 name: openshift/ose-installer-artifacts-rhel9
 payload_name: installer-artifacts
 owners:

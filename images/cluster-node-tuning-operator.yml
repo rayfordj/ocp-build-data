@@ -28,7 +28,7 @@ for_payload: true
 from:
   builder:
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 name: openshift/ose-cluster-node-tuning-rhel9-operator
 payload_name: cluster-node-tuning-operator
 owners:
