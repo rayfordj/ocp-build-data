@@ -14,9 +14,13 @@ releases:
         shipment:
           advisories:
             - kind: image
+              live_id: 4420
             - kind: extras
+              live_id: 4421
             - kind: metadata
+              live_id: 4422
             - kind: fbc
+          url: https://gitlab.cee.redhat.com/hybrid-platforms/art/ocp-shipment-data/-/merge_requests/404
         release_date: 2026-Mar-17
         upgrades: 4.20.13,4.20.14,4.20.15,4.20.16,4.21.0,4.21.1,4.21.2,4.21.3,4.21.4,4.21.5
       issues:
