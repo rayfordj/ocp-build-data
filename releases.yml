@@ -67,7 +67,12 @@ releases:
             ppc64le: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:c2f5f1f61587db5fb400e8a1abe8a0c92b929d252673ecbb0847df4359061dc9
       members:
         rpms: []
-        images: []
+        images:
+          - distgit_key: ose-network-tools
+            why: fix conforma violation pm_packages.unique_version libatomic-*
+            metadata:
+              is:
+                nvr: ose-network-tools-container-v4.21.0-202603121039.p2.gd6717e4.assembly.stream.el9
   4.21.5:
     assembly:
       type: standard
