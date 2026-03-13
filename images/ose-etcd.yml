@@ -14,7 +14,7 @@ cachito:
     - path: tools/mod
 content:
   source:
-    dockerfile: Dockerfile.art
+    dockerfile: Dockerfile.rhel
     git:
       branch:
         target: openshift-{MAJOR}.{MINOR}
@@ -58,10 +58,6 @@ owners:
 - melbeher@redhat.com
 maintainer:
   component: "Etcd"
-konflux:
-  content:
-    source:
-      dockerfile: Dockerfile.rhel
 okd:
   content:
     source:
