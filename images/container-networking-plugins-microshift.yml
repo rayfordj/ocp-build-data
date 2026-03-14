@@ -28,7 +28,7 @@ for_payload: true
 from:
   builder:
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 labels:
   io.k8s.description: Multus plugins from the reference CNI plugins of the CNCF container networking project, including typical utility CNI plugins.
   io.k8s.display-name: Reference CNI plugins

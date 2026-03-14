@@ -28,7 +28,7 @@ enabled_repos:
 - rhel-9-appstream-rpms
 - rhel-9-fast-datapath-rpms
 from:
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 name: openshift/ose-dpu-intel-ipu-p4sdk-rhel9
 name_in_bundle: dpu-intel-ipu-p4sdk
 owners:

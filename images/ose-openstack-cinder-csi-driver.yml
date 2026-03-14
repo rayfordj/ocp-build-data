@@ -28,7 +28,7 @@ for_payload: true
 from:
   builder:
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 name: openshift/ose-openstack-cinder-csi-driver-rhel9
 payload_name: openstack-cinder-csi-driver
 owners:

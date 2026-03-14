@@ -40,7 +40,7 @@ for_payload: false
 from:
   builder:
   - stream: rhel-9-golang
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 maintainer:
   component: Operator SDK
 name: openshift/ose-ansible-rhel9-operator

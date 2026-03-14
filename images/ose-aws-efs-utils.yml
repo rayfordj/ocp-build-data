@@ -36,7 +36,7 @@ enabled_repos:
 for_payload: false
 for_release: false
 from:
-  member: openshift-enterprise-base-rhel9-minimal
+  member: openshift-enterprise-base-rhel9
 name: openshift/ose-aws-efs-utils-base
 owners:
 - aos-storage-staff@redhat.com
