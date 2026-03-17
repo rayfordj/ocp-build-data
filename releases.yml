@@ -8,9 +8,8 @@ releases:
           x86_64: 5.0.0-0.nightly-2026-03-14-000032
       group:
         advisories:
-          rpm: -1
-          # rhcos: -1
-          microshift: -1
+          rpm: 163711
+          microshift: 163712
         release_jira: ART-0
         shipment:
           advisories:
@@ -20,7 +19,7 @@ releases:
             - kind: fbc
           env: stage
         release_date: 2026-Apr-01
-        upgrades: ""  # 4.22.0-ec.0,4.22.0-ec.1,4.22.0-ec.2,4.22.0-ec.3
+        upgrades: ""
       permits:
         - code: MISMATCHED_NETWORK_MODE
           component: dpu-intel-ipu-vsp
