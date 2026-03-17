@@ -9,7 +9,7 @@ releases:
       group:
         advisories:
           rpm: -1
-          rhcos: -1
+          # rhcos: -1
           microshift: -1
         release_jira: ART-0
         shipment:
@@ -20,7 +20,16 @@ releases:
             - kind: fbc
           env: stage
         release_date: 2026-Apr-01
-        upgrades: 4.22.0-ec.0,4.22.0-ec.1,4.22.0-ec.2,4.22.0-ec.3
+        upgrades: ""  # 4.22.0-ec.0,4.22.0-ec.1,4.22.0-ec.2,4.22.0-ec.3
+      permits:
+        - code: MISMATCHED_NETWORK_MODE
+          component: dpu-intel-ipu-vsp
+        - code: MISMATCHED_NETWORK_MODE
+          component: ironic
+        - code: CONFLICTING_INHERITED_DEPENDENCY
+          component: rhcos
+        - code: CONFLICTING_GROUP_RPM_INSTALLED
+          component: rhcos
       rhcos:
         rhel-coreos:
           images:
