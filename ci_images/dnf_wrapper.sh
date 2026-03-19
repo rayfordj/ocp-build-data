@@ -165,6 +165,23 @@ if [[ "${SKIP_REPO_INSTALL}" == "0" ]]; then
     # Set the repo file search path for DNF
     EXTRA_DNF_ARGS="${EXTRA_DNF_ARGS} --setopt=reposdir=${DNF_OPTS_REPOSDIR}"
     echoerr "DNF will search for repo files in: ${DNF_OPTS_REPOSDIR}"
+
+    # List configured repositories so they are visible in build logs,
+    # since microdnf does not display repo names during metadata download.
+    for repodir in ${DNF_OPTS_REPOSDIR//,/ }; do
+      if [[ -d "${repodir}" ]]; then
+        for repofile in "${repodir}"/*.repo; do
+          if [[ -f "${repofile}" ]]; then
+            echoerr "Configured repositories in $(basename "${repofile}"):"
+            while IFS= read -r line; do
+              if [[ "${line}" =~ ^\[.*\]$ ]]; then
+                echoerr "  - ${line//[\[\]]/}"
+              fi
+            done < "${repofile}"
+          fi
+        done
+      fi
+    done
   fi
 
 fi
