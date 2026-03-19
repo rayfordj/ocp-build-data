@@ -39,6 +39,7 @@ for_payload: true
 from:
   builder:
   - member: openshift-enterprise-base-rhel9
+  - member: openshift-enterprise-base-rhel9
   member: openshift-enterprise-base-rhel9
 name: openshift/ose-ironic-rhel9
 payload_name: ironic
