@@ -11,8 +11,8 @@ releases:
           x86_64: 4.21.0-0.nightly-2026-03-19-001048
       group:
         advisories:
-          rpm: -1
-          rhcos: -1
+          rpm: 164870
+          rhcos: 164871
         release_jira: ART-0
         shipment:
           advisories:
