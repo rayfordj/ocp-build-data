@@ -22,10 +22,10 @@ releases:
             - kind: fbc
         release_date: 2026-Mar-24
         upgrades: 4.20.13,4.20.14,4.20.15,4.20.16,4.20.17,4.21.0,4.21.1,4.21.2,4.21.3,4.21.4,4.21.5,4.21.6
-        issues:
-          exclude:
-            - id: OCPBUGS-75014
-            - id: OCPBUGS-75015
+      issues:
+        exclude:
+          - id: OCPBUGS-75014
+          - id: OCPBUGS-75015
       permits:
         - code: CONFLICTING_INHERITED_DEPENDENCY
           component: ironic
