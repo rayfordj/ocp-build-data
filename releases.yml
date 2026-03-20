@@ -94,7 +94,12 @@ releases:
             aarch64: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:308136c229368cd81838c150bbbd84e34c389a95c72b27df38bb0fef8cfb7beb
       members:
         rpms: []
-        images: []
+        images:
+          - distgit_key: local-storage-mustgather
+            why: Pin build to satisfy verify_attached_operators check for local-storage-operator bundle
+            metadata:
+              is:
+                nvr: ose-local-storage-mustgather-container-v4.21.0-202603181245.p2.gd463337.assembly.stream.el9
   4.21.6:
     assembly:
       type: standard
