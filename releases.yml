@@ -106,6 +106,11 @@ releases:
             metadata:
               is:
                 nvr: ose-local-storage-mustgather-container-v4.21.0-202603181245.p2.gd463337.assembly.stream.el9
+          - distgit_key: microshift-bootc
+            metadata:
+              is:
+                nvr: microshift-bootc-container-v4.21.0-202603230956.p2.g238410b.assembly.4.21.7.el9
+            why: Pin microshift-bootc image to assembly
   4.21.6:
     assembly:
       type: standard
