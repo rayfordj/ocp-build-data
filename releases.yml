@@ -13,6 +13,7 @@ releases:
         advisories:
           rpm: 164870
           rhcos: 164871
+          microshift: 164933
         release_jira: ART-14762
         shipment:
           advisories:
@@ -93,7 +94,12 @@ releases:
             ppc64le: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:e8305b964ecd97c0918663226974036cdd622c08b14fdf961913ab73c704a089
             aarch64: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:308136c229368cd81838c150bbbd84e34c389a95c72b27df38bb0fef8cfb7beb
       members:
-        rpms: []
+        rpms:
+          - distgit_key: microshift
+            why: Pin microshift to assembly
+            metadata:
+              is:
+                el9: microshift-4.21.7-202603230928.p0.g238410b.assembly.4.21.7.el9
         images:
           - distgit_key: local-storage-mustgather
             why: Pin build to satisfy verify_attached_operators check for local-storage-operator bundle
