@@ -1329,3 +1329,19 @@ bug_mapping:
       issue_component: Cloud Compute / Cloud Controller Manager
     kube-compare-artifacts-container:
       issue_component: oc / cluster-compare
+
+    # The following components do not have a matching distgit.component mapping in images or the internal name did not follow the expected naming convention, so we assign them manually here.
+    ose-installer-altinfra-container:
+      issue_component: Installer / openshift-installer
+    assisted-installer-ui-container:
+      issue_component: Installer / Disconnected UI
+    aws-karpenter-provider-aws-container:
+      issue_component: autoscaling / karpenter
+    dpu-intel-ipu-p4sdk-container:
+      issue_component: Networking / DPU
+    gcp-workload-identity-federation-webhook-container:
+      issue_component: Cloud Credential Operator
+    microshift-bootc-container:
+      issue_component: MicroShift
+    ose-support-log-gather-operator-container:
+      issue_component: oc
