@@ -20,7 +20,7 @@ delivery:
   - openshift4/insights-runtime-exporter-rhel9
 from:
   builder:
-  - stream: rhel-9-golang
+  - stream: rhel-9-golang-1.25
   member: openshift-enterprise-base-rhel9
 for_payload: true
 payload_name: insights-runtime-exporter
