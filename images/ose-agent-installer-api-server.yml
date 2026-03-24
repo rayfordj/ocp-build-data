@@ -54,6 +54,7 @@ konflux:
       - kernel-headers
       - libasan
       - libatomic
+      - libgomp
       - libmpc
       - libubsan
       - libxcrypt-devel
