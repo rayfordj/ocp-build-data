@@ -45,6 +45,7 @@ konflux:
       - elfutils-debuginfod-client
       - gcc
       - gcc-c++
+      - gcc-plugin-annobin
       - libstdc++-devel
       - glibc
       - glibc-headers
