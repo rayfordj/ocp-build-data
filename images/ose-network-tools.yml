@@ -36,3 +36,5 @@ konflux:
     lockfile:
       modules:
       - nginx:1.26
+      rpms:
+      - gcc-plugin-annobin
