@@ -28,8 +28,7 @@ from:
   member: mta-analyzer-lsp
 name: mta/mta-analyzer-addon-rhel9
 owners:
-- fbladilo@redhat.com
-- rjohnson@redhat.com
+- mta-devs@redhat.com
 dependents:
   - mta-operator
 konflux:
