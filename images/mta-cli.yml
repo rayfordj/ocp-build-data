@@ -32,8 +32,7 @@ from:
   member: mta-java-external-provider
 name: mta/mta-cli-rhel9
 owners:
-- fbladilo@redhat.com
-- rjohnson@redhat.com
+- mta-devs@redhat.com
 dependents:
   - mta-operator
 konflux:

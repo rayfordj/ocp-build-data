@@ -33,7 +33,6 @@ from:
   stream: rhel-9-nodejs-20
 name: mta/mta-ui-rhel9
 owners:
-- fbladilo@redhat.com
-- rjohnson@redhat.com
+- mta-devs@redhat.com
 dependents:
   - mta-operator

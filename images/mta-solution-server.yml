@@ -25,8 +25,7 @@ from:
   stream: rhel9
 name: mta/mta-solution-server-rhel9
 owners:
-- fbladilo@redhat.com
-- rjohnson@redhat.com
+- mta-devs@redhat.com
 dependents:
   - mta-operator
 konflux:

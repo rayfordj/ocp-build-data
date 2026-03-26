@@ -30,8 +30,7 @@ from:
   stream: rhel9
 name: mta/mta-dotnet-external-provider-rhel9
 owners:
-- fbladilo@redhat.com
-- rjohnson@redhat.com
+- mta-devs@redhat.com
 dependents:
   - mta-operator
 konflux:

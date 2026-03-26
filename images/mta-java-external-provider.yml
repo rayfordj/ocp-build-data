@@ -29,8 +29,7 @@ from:
   member: mta-jdtls-server-base
 name: mta/mta-java-external-provider-rhel9
 owners:
-- fbladilo@redhat.com
-- rjohnson@redhat.com
+- mta-devs@redhat.com
 dependents:
   - mta-cli
   - mta-operator
