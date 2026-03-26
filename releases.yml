@@ -70,6 +70,8 @@ releases:
           component: ose-network-tools
         - code: CONFLICTING_INHERITED_DEPENDENCY
           component: ose-tools
+        - code: CONFLICTING_INHERITED_DEPENDENCY
+          component: rhcos
   4.21.7:
     assembly:
       type: standard
