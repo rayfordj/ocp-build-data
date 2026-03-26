@@ -144,6 +144,7 @@ konflux:
       - pkgconf-m4
       - pkgconf-pkg-config
       - python3.12-devel
+      - python3.12-watchdog
       - python3.12-wheel
       - python3.12-lark
       - python3.12-ironic-prometheus-exporter
