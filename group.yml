@@ -2,7 +2,7 @@ freeze_automation: false
 name: mta-8.1
 csv_namespace: mta
 product: mta
-version: 8.1.0
+version: 8.1.1
 
 vars:
   # The go versions used by the various CI builder images.
