@@ -2,6 +2,7 @@ cachito:
   packages:
     gomod:
     - path: go-controller
+    - path: openshift
 content:
   source:
     dockerfile: Dockerfile
