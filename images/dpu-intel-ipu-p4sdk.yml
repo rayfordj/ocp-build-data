@@ -13,8 +13,17 @@ content:
       streams_prs:
         ci_build_root:
           member: ci-openshift-build-root-latest.rhel9
+    pkg_managers:
+    - pip
 dependents:
 - dpu-operator
+cachito:
+  enabled: true
+  packages:
+    pip:
+    - path: openshift
+      requirements_files:
+      - requirements-p4.txt
 distgit:
   branch: rhaos-{MAJOR}.{MINOR}-rhel-9
   component: dpu-intel-ipu-p4sdk-container
@@ -41,34 +50,20 @@ konflux:
   cachi2:
     lockfile:
       rpms:
-      - "gcc-c++"
-      - "libstdc++-devel"
-      - "gcc"
-      - "glibc-devel"
-      - "binutils"
-      - "libxcrypt-devel"
-      - "pkgconf-pkg-config"
-      - "pkgconf"
-      - "cpp"
-      - "pkgconf-m4"
-      - "glibc-headers"
-      - "kernel-headers"
-      - "libmpc"
-      - "libpkgconf"
-      - "binutils-gold"
-      - "elfutils-debuginfod-client"
-      - "make"
-  network_mode: open  # needs to declare netaddr in requirements.txt
-okd:
-  content:
-    source:
-      modifications:
-      - action: replace
-        match: "RUN chmod +x install-dpu.sh \\"
-        replacement: |-
-          # Create a pip.conf file to globally set --ignore-installed.
-          # Needed as the base centos image has setuptools installed by a package manager
-          RUN mkdir -p /root/.config/pip && \
-              echo "[install]" > /root/.config/pip/pip.conf && \
-              echo "ignore-installed = true" >> /root/.config/pip/pip.conf
-          RUN chmod +x install-dpu.sh \
+      - gcc-c++
+      - libstdc++-devel
+      - gcc
+      - glibc-devel
+      - binutils
+      - libxcrypt-devel
+      - pkgconf-pkg-config
+      - pkgconf
+      - cpp
+      - pkgconf-m4
+      - glibc-headers
+      - kernel-headers
+      - libmpc
+      - libpkgconf
+      - binutils-gold
+      - elfutils-debuginfod-client
+      - make
