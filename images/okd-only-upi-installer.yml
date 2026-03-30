@@ -47,4 +47,17 @@ konflux:
   network_mode: open
   no_shell: true  # Image uses minimal base images (govc, pwsh, yq) without /bin/sh
 okd:
+  distgit:
+    branch: rhaos-5.0-rhel-9
+  from:
+    builder:
+    - member: ose-installer-kube-apiserver-artifacts
+    - member: ose-installer-etcd-artifacts
+    - stream: rhel-9-golang
+    - member: openshift-enterprise-cli
+    - image: quay.io/ocp-splat/govc:v0.30.7
+    - image: quay.io/ocp-splat/pwsh:v7.3.12
+    - image: quay.io/multi-arch/yq:3.3.0
+    - image: quay.io/multi-arch/yq:4.30.5
+    stream: centos_stream9
   mode: enabled
