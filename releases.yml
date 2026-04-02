@@ -62,6 +62,8 @@ releases:
         - code: CONFLICTING_INHERITED_DEPENDENCY
           component: openshift-enterprise-tests
         - code: CONFLICTING_INHERITED_DEPENDENCY
+          component: ose-agent-installer-api-server
+        - code: CONFLICTING_INHERITED_DEPENDENCY
           component: ose-agent-installer-node-agent
         - code: CONFLICTING_INHERITED_DEPENDENCY
           component: ose-frr
