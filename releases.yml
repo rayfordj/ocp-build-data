@@ -50,6 +50,10 @@ releases:
         - code: CONFLICTING_INHERITED_DEPENDENCY
           component: dpu-intel-ipu-p4sdk
         - code: CONFLICTING_INHERITED_DEPENDENCY
+          component: dpu-intel-ipu-vsp
+        - code: CONFLICTING_INHERITED_DEPENDENCY
+          component: ironic
+        - code: CONFLICTING_INHERITED_DEPENDENCY
           component: ironic-agent
         - code: CONFLICTING_INHERITED_DEPENDENCY
           component: openshift-enterprise-ansible-operator
