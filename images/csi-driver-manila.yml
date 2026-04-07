@@ -23,7 +23,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-csi-driver-manila
   delivery_repo_names:
-  - openshift4/ose-csi-driver-manila-rhel9
+  - openshift5/ose-csi-driver-manila-rhel9
 for_payload: true
 from:
   builder:

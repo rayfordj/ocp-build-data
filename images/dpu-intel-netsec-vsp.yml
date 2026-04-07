@@ -26,7 +26,7 @@ enabled_repos:
 delivery:
   repo_name: ose-dpu-intel-netsec-vsp
   delivery_repo_names:
-  - openshift4/ose-dpu-intel-netsec-vsp-rhel9
+  - openshift5/ose-dpu-intel-netsec-vsp-rhel9
 for_payload: false
 from:
   builder:

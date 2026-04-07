@@ -20,7 +20,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-container-networking-plugins
   delivery_repo_names:
-  - openshift4/ose-container-networking-plugins-rhel9
+  - openshift5/ose-container-networking-plugins-rhel9
 enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms

@@ -20,9 +20,9 @@ distgit:
 delivery:
   # Maps to honeybadger repo_name
   repo_name: pf-status-relay-operator-container
-  bundle_delivery_repo_name: openshift4/pf-status-relay-operator-bundle
+  bundle_delivery_repo_name: openshift5/pf-status-relay-operator-bundle
   delivery_repo_names:
-  - openshift4/pf-status-relay-rhel9-operator
+  - openshift5/pf-status-relay-rhel9-operator
 for_payload: false
 from:
   builder:

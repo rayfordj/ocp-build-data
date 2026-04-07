@@ -18,7 +18,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-olm-catalogd
   delivery_repo_names:
-  - openshift4/ose-olm-catalogd-rhel9
+  - openshift5/ose-olm-catalogd-rhel9
 for_payload: true
 from:
   builder:

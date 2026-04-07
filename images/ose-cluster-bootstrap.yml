@@ -16,7 +16,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-cluster-bootstrap
   delivery_repo_names:
-  - openshift4/ose-cluster-bootstrap-rhel9
+  - openshift5/ose-cluster-bootstrap-rhel9
 for_payload: true
 from:
   builder:

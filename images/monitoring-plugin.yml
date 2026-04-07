@@ -29,7 +29,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-monitoring-plugin
   delivery_repo_names:
-  - openshift4/ose-monitoring-plugin-rhel9
+  - openshift5/ose-monitoring-plugin-rhel9
 for_payload: true
 from:
   builder:

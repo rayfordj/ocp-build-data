@@ -26,7 +26,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-aws-ebs-csi-driver
   delivery_repo_names:
-  - openshift4/ose-aws-ebs-csi-driver-rhel9
+  - openshift5/ose-aws-ebs-csi-driver-rhel9
 enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms

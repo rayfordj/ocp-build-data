@@ -23,7 +23,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-clusterresourceoverride
   delivery_repo_names:
-  - openshift4/ose-clusterresourceoverride-rhel9
+  - openshift5/ose-clusterresourceoverride-rhel9
 for_payload: false
 from:
   builder:

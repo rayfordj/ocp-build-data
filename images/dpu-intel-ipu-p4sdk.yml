@@ -30,7 +30,7 @@ distgit:
 delivery:
   repo_name: ose-dpu-intel-ipu-p4sdk
   delivery_repo_names:
-  - openshift4/ose-dpu-intel-ipu-p4sdk-rhel9
+  - openshift5/ose-dpu-intel-ipu-p4sdk-rhel9
 for_payload: false
 enabled_repos:
 - rhel-9-baseos-rpms

@@ -23,7 +23,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: volume-data-source-validator
   delivery_repo_names:
-  - openshift4/volume-data-source-validator-rhel9
+  - openshift5/volume-data-source-validator-rhel9
 enabled_repos: []
 for_payload: true
 from:

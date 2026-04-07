@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-must-gather
   delivery_repo_names:
-  - openshift4/ose-must-gather-rhel9
+  - openshift5/ose-must-gather-rhel9
 dependents:
 - ose-support-log-gather-operator
 enabled_repos:

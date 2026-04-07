@@ -22,7 +22,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-local-storage-mustgather
   delivery_repo_names:
-  - openshift4/ose-local-storage-mustgather-rhel9
+  - openshift5/ose-local-storage-mustgather-rhel9
 dependents:
 - local-storage-operator
 for_payload: false

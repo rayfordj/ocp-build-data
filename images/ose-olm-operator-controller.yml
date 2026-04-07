@@ -22,7 +22,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-olm-operator-controller
   delivery_repo_names:
-  - openshift4/ose-olm-operator-controller-rhel9
+  - openshift5/ose-olm-operator-controller-rhel9
 for_payload: true
 from:
   builder:

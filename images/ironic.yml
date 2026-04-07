@@ -28,7 +28,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-ironic
   delivery_repo_names:
-  - openshift4/ose-ironic-rhel9
+  - openshift5/ose-ironic-rhel9
 enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms

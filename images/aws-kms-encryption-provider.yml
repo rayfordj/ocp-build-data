@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: aws-kms-encryption-provider
   delivery_repo_names:
-  - openshift4/aws-kms-encryption-provider-rhel9
+  - openshift5/aws-kms-encryption-provider-rhel9
 for_payload: true
 from:
   builder:
