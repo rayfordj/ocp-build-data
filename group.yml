@@ -120,8 +120,8 @@ rhcos:
       rhel_version: 10.1
       meta_type: meta
   enabled_repos:
-  - rhel-98-baseos
-  - rhel-98-appstream
+  - rhel-9-baseos
+  - rhel-9-appstream
   - rhel-9-fast-datapath-rpms
   require_consistency:
     driver-toolkit:

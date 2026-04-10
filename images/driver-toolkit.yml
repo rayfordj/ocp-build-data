@@ -32,10 +32,6 @@ enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms
 - rhel-9-rt-rpms
-- rhel-98-baseos
-- rhel-98-appstream
-- rhel-98-nfv
-- rhel-98-highavailability
 for_payload: true
 from:
   member: openshift-enterprise-base-rhel9
