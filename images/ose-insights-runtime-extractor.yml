@@ -48,6 +48,7 @@ konflux:
       - libasan
       - libatomic
       - libedit
+      - libgomp
       - libmpc
       - libpkgconf
       - libubsan
