@@ -19,9 +19,9 @@ distgit:
   bundle_component: ose-support-log-gather-operator-bundle-container
 delivery:
   repo_name: ose-support-log-gather-operator
-  bundle_delivery_repo_name: openshift4/ose-support-log-gather-operator-bundle
+  bundle_delivery_repo_name: openshift5/ose-support-log-gather-operator-bundle
   delivery_repo_names:
-  - openshift4/ose-support-log-gather-rhel9-operator
+  - openshift5/ose-support-log-gather-rhel9-operator
 enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms

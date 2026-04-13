@@ -22,7 +22,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-cloud-event-proxy
   delivery_repo_names:
-  - openshift4/ose-cloud-event-proxy-rhel9
+  - openshift5/ose-cloud-event-proxy-rhel9
 for_payload: false
 from:
   builder:

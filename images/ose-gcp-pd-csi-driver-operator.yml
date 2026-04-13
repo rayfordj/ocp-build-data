@@ -26,7 +26,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-gcp-pd-csi-driver-operator
   delivery_repo_names:
-  - openshift4/ose-gcp-pd-csi-driver-operator-rhel9
+  - openshift5/ose-gcp-pd-csi-driver-operator-rhel9
 for_payload: true
 from:
   builder:

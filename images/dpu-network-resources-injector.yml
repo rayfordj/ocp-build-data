@@ -21,7 +21,7 @@ distgit:
 delivery:
   repo_name: ose-dpu-network-resources-injector
   delivery_repo_names:
-  - openshift4/ose-dpu-network-resources-injector-rhel9
+  - openshift5/ose-dpu-network-resources-injector-rhel9
 for_payload: false
 from:
   builder:

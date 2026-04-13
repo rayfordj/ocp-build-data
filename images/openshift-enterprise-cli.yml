@@ -18,7 +18,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-cli
   delivery_repo_names:
-  - openshift4/ose-cli-rhel9
+  - openshift5/ose-cli-rhel9
 enabled_repos:
 - rhel-9-baseos-rpms
 for_payload: true

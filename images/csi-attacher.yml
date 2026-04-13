@@ -23,7 +23,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-csi-external-attacher
   delivery_repo_names:
-  - openshift4/ose-csi-external-attacher-rhel9
+  - openshift5/ose-csi-external-attacher-rhel9
 for_payload: true
 from:
   builder:

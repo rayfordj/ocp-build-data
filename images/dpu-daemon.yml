@@ -19,7 +19,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-dpu-daemon
   delivery_repo_names:
-  - openshift4/ose-dpu-daemon-rhel9
+  - openshift5/ose-dpu-daemon-rhel9
 enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms

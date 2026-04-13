@@ -25,7 +25,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: kube-metrics-server
   delivery_repo_names:
-  - openshift4/kube-metrics-server-rhel9
+  - openshift5/kube-metrics-server-rhel9
 for_payload: true
 from:
   builder:

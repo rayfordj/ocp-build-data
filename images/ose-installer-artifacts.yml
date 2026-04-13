@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-installer-artifacts
   delivery_repo_names:
-  - openshift4/ose-installer-artifacts-rhel9
+  - openshift5/ose-installer-artifacts-rhel9
 for_payload: true
 from:
   builder:

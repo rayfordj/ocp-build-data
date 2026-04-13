@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-coredns
   delivery_repo_names:
-  - openshift4/ose-coredns-rhel9
+  - openshift5/ose-coredns-rhel9
 for_payload: true
 from:
   builder:

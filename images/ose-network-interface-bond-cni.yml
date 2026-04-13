@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-network-interface-bond-cni
   delivery_repo_names:
-  - openshift4/ose-network-interface-bond-cni-rhel9
+  - openshift5/ose-network-interface-bond-cni-rhel9
 for_payload: true
 from:
   builder:

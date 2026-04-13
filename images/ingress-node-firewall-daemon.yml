@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ingress-node-firewall
   delivery_repo_names:
-  - openshift4/ingress-node-firewall-rhel9
+  - openshift5/ingress-node-firewall-rhel9
 dependents:
 - ingress-node-firewall-operator
 for_payload: false

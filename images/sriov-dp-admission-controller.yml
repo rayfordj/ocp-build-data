@@ -26,7 +26,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-sriov-dp-admission-controller
   delivery_repo_names:
-  - openshift4/ose-sriov-dp-admission-controller-rhel9
+  - openshift5/ose-sriov-dp-admission-controller-rhel9
 for_payload: false
 from:
   builder:

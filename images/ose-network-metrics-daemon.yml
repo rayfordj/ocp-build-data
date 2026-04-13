@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-network-metrics-daemon
   delivery_repo_names:
-  - openshift4/ose-network-metrics-daemon-rhel9
+  - openshift5/ose-network-metrics-daemon-rhel9
 for_payload: true
 from:
   builder:

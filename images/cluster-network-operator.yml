@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-cluster-network-operator
   delivery_repo_names:
-  - openshift4/ose-cluster-network-rhel9-operator
+  - openshift5/ose-cluster-network-rhel9-operator
 for_payload: true
 from:
   builder:

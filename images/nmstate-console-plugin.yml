@@ -21,7 +21,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: nmstate-console-plugin
   delivery_repo_names:
-  - openshift4/nmstate-console-plugin-rhel9
+  - openshift5/nmstate-console-plugin-rhel9
 enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms

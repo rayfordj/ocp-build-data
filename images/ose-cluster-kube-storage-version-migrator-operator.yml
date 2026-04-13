@@ -17,7 +17,7 @@ delivery:
   # Maps to honeybadger repo_name
   repo_name: ose-cluster-kube-storage-version-migrator-operator
   delivery_repo_names:
-  - openshift4/ose-cluster-kube-storage-version-migrator-rhel9-operator
+  - openshift5/ose-cluster-kube-storage-version-migrator-rhel9-operator
 for_payload: true
 from:
   builder:

@@ -25,7 +25,7 @@ enabled_repos:
 delivery:
   repo_name: ose-dpu-marvell-cp-agent
   delivery_repo_names:
-  - openshift4/ose-dpu-marvell-cp-agent-rhel9
+  - openshift5/ose-dpu-marvell-cp-agent-rhel9
 for_payload: false
 from:
   builder:
