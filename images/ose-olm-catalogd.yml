@@ -1,5 +1,7 @@
 content:
   source:
+    pkg_managers:
+    - gomod
     dockerfile: openshift/catalogd.Dockerfile
     git:
       branch:
