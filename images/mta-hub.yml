@@ -58,8 +58,10 @@ konflux:
         - kernel-headers
         - libasan
         - libatomic
+        - libgomp
         - libmpc
         - libpkgconf
+        - libstdc++
         - libstdc++-devel
         - libubsan
         - libuv
