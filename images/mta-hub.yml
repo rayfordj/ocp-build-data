@@ -39,6 +39,8 @@ konflux:
     lockfile:
       # These rpms are needed in intermediate build stages, they are not tracked by the RPMs database (which only records final runtime image installed RPMs)
       # If tini is supplied any other way, please remove these deps
+      # Also seed the konflux.Dockerfile tini stage `dnf install -y cmake make gcc gcc-c++`: match a full open-network
+      # glibc-static, libasan, libatomic, libubsan, libxcrypt-static: needed for aarch64 / CGO.
       rpms:
         - binutils
         - binutils-gold
@@ -48,6 +50,9 @@ konflux:
         - cmake-rpm-macros
         - cpp
         - elfutils-debuginfod-client
+        # elfutils-debuginfod-client requires matching elfutils-lib* NEVRAs for hermetic binutils/gcc.
+        - elfutils-libelf
+        - elfutils-libs
         - emacs-filesystem
         - gcc
         - gcc-c++
