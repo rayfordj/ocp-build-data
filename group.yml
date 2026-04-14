@@ -120,7 +120,7 @@ rhcos:
       rhel_version: 10.2
       meta_type: meta
   enabled_repos:
-  - rhel-9-baseos
+  - rhel-9-baseos-rpms
   - rhel-9-appstream-rpms
   - rhel-9-fast-datapath-rpms
   require_consistency:
