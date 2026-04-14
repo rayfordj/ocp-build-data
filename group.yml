@@ -121,7 +121,7 @@ rhcos:
       meta_type: meta
   enabled_repos:
   - rhel-9-baseos
-  - rhel-9-appstream
+  - rhel-9-appstream-rpms
   - rhel-9-fast-datapath-rpms
   require_consistency:
     driver-toolkit:
