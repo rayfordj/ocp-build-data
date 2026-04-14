@@ -51,13 +51,18 @@ konflux:
         - emacs-filesystem
         - gcc
         - gcc-c++
+        # Prefetch glibc NEVRA required by glibc-devel (hermetic cannot downgrade UBI glibc otherwise).
+        - glibc
+        - glibc-common
         - glibc-devel
         - glibc-headers
         - glibc-langpack-en
+        - glibc-minimal-langpack
         - glibc-static
         - kernel-headers
         - libasan
         - libatomic
+        - libgcc
         - libgomp
         - libmpc
         - libpkgconf
