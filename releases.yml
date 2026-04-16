@@ -23,6 +23,10 @@ releases:
           url: https://gitlab.cee.redhat.com/hybrid-platforms/art/ocp-shipment-data/-/merge_requests/468
         release_date: 2026-Apr-21
         upgrades: 4.20.15,4.20.16,4.20.17,4.20.18,4.20.19,4.21.0,4.21.1,4.21.2,4.21.3,4.21.4,4.21.5,4.21.6,4.21.7,4.21.8,4.21.9,4.21.10
+      issues:
+        exclude:
+          - id: OCPBUGS-75014
+          - id: OCPBUGS-75015
       permits:
         - code: CONFLICTING_INHERITED_DEPENDENCY
           component: cluster-node-tuning-operator
