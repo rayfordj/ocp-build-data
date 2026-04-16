@@ -17,8 +17,8 @@ content:
 delivery:
   delivery_repo_names:
     - rhmtc/openshift-migration-openvpn-rhel8
-dependents:
-  - openshift-migration-operator
+#dependents:
+#  - openshift-migration-operator
 distgit:
   branch: rhaos-{MAJOR}.{MINOR}-rhel-8
   component: openshift-migration-openvpn-container
