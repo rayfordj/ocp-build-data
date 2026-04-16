@@ -77,7 +77,15 @@ releases:
             ppc64le: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:721685d8c3db90188ebcce3fdbab7b67b4b7ff7c978020ddaf20d5a4dfa09b25
       members:
         rpms: []
-        images: []
+        images:
+          - distgit_key: openshift-kubernetes-nmstate-operator
+            why: Excluding because dependent nmstate-console-plugin Konflux build image is missing from quay
+            metadata:
+              mode: disabled
+          - distgit_key: nmstate-console-plugin
+            why: Excluding because Konflux build image is missing from quay
+            metadata:
+              mode: disabled
   4.21.10:
     assembly:
       type: standard
