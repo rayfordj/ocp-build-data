@@ -391,7 +391,7 @@ konflux:
       - util-linux
       - xkeyboard-config
       - xorg-x11-font-utils
-      - xorg-x11-fonts-ISO8859-1-100dpi
+      - xorg-x11-fonts-ISO8859-1-100dpi-7.5-19.el8
       - xorg-x11-server-utils
       - xz
       - xz-libs
