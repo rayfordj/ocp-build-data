@@ -94,6 +94,11 @@ releases:
           - distgit_key: nmstate-console-plugin
             why: Excluding because Konflux build image is missing from quay
             exclude: true
+          - distgit_key: microshift-bootc
+            metadata:
+              is:
+                nvr: microshift-bootc-container-v4.21-202604201054.p2.g7f7539e.assembly.4.21.11.el9
+            why: Pin microshift-bootc image to assembly
   4.21.10:
     assembly:
       type: standard
