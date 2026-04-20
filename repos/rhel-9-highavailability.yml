@@ -12,4 +12,6 @@
     ppc64le: rhel-9-for-ppc64le-highavailability-e4s-rpms__9_DOT_8
     s390x: rhel-9-for-s390x-highavailability-e4s-rpms__9_DOT_8
   name: rhel-9-highavailability
+  reposync:
+    enabled: true
   type: external
