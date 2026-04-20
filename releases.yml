@@ -81,7 +81,12 @@ releases:
             s390x: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:e3c972f695a9f88ba68dc5a4a7c2bfbcee88028e8830c46201eb069775db8059
             ppc64le: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:721685d8c3db90188ebcce3fdbab7b67b4b7ff7c978020ddaf20d5a4dfa09b25
       members:
-        rpms: []
+        rpms:
+          - distgit_key: microshift
+            why: Pin microshift to assembly
+            metadata:
+              is:
+                el9: microshift-4.21.11-202604201017.p0.g7f7539e.assembly.4.21.11.el9
         images:
           - distgit_key: openshift-kubernetes-nmstate-operator
             why: Excluding because dependent nmstate-console-plugin Konflux build image is missing from quay
