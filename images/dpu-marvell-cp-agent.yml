@@ -66,6 +66,8 @@ konflux:
       - elfutils-libs
       - emacs-filesystem
       - expat
+      - file
+      - file-libs
       - filesystem
       - findutils
       - fonts-srpm-macros
