@@ -57,6 +57,7 @@ konflux:
       - cpio
       - cpp
       - crypto-policies-scripts
+      - dbxtool
       - cryptsetup-libs
       - dbus
       - dbus-broker
@@ -97,6 +98,7 @@ konflux:
       - grub2-pc-modules
       - grub2-tools
       - grub2-tools-minimal
+      - hwdata
       - ima-evm-utils
       - inih
       - kbd
@@ -132,6 +134,7 @@ konflux:
       - libkcapi
       - libkcapi-hmaccalc
       - libmpc
+      - libpciaccess
       - libnsl2
       - libpkgconf
       - libseccomp
