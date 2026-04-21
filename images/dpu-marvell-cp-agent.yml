@@ -66,6 +66,8 @@ konflux:
       - elfutils-libs
       - emacs-filesystem
       - expat
+      - file
+      - file-libs
       - filesystem
       - findutils
       - fonts-srpm-macros
@@ -81,6 +83,11 @@ konflux:
       - gcc-toolset-14-gcc-c++
       - gcc-toolset-14-libstdc++-devel
       - gcc-toolset-14-runtime
+      - gcc-toolset-15-binutils
+      - gcc-toolset-15-gcc
+      - gcc-toolset-15-gcc-c++
+      - gcc-toolset-15-libstdc++-devel
+      - gcc-toolset-15-runtime
       - gdb-gdbserver
       - gdbm-libs
       - git
@@ -122,6 +129,7 @@ konflux:
       - libdb
       - libdnf
       - libdnf-plugin-subscription-manager
+      - librepo
       - libeconf
       - libfdisk
       - libgcc
