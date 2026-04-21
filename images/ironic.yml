@@ -122,6 +122,7 @@ konflux:
       - libbytesize
       - libcbor
       - libcomps
+      - libdrm
       - libedit
       - libfido2
       - libgomp
