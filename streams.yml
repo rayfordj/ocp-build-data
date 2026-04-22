@@ -39,7 +39,7 @@ rhel-9-golang-extra:
   aliases:
     - rhel-9-golang-{GO_EXTRA}
   image: quay.io/redhat-user-workloads/ocp-art-tenant/art-images:golang-builder-v1.26.1-202604202010.p2.g43aca9a.el9
-  mirror: false
+  mirror: true
   upstream_image: registry.ci.openshift.org/ocp/builder:rhel-9-golang-{GO_EXTRA}-openshift-{MAJOR}.{MINOR}
 
 partner-rhel-8-golang-1.25:
